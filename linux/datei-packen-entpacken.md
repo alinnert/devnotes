@@ -22,7 +22,7 @@ tar -xzvf archive.tar.gz
 tar --extract --gzip --verbose --file archive.tar.gz
 ~~~
 
-### Inhalt einer gepackten Datei anzeigen
+### Inhalt eines Archivs anzeigen
 
 ~~~
 tar -ztvf archive.tar.gz
