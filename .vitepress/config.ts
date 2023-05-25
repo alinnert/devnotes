@@ -7,9 +7,16 @@ export default defineConfig({
   base: '/devnotes/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    outline: { label: 'Inhalt', level: [2, 3] },
+    docFooter: { prev: 'Vorherige Seite', next: 'Nächste Seite' },
+    editLink: {
+      text: 'Diese Seite bearbeiten',
+      pattern: 'https://github.com/alinnert/devnotes/edit/main/:path',
+    },
+
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Git', link: '/git/befehle' },
+      { text: 'Git', link: '/git/dateien' },
       { text: 'Linux', link: '/linux/datei-operationen' },
     ],
 
@@ -17,7 +24,12 @@ export default defineConfig({
       '/git/': [
         {
           text: 'Git',
-          items: [{ text: 'Wichtige Befehle', link: '/git/befehle' }],
+          items: [
+            { text: 'Dateien, Index und Stage', link: '/git/dateien' },
+            { text: 'Stash', link: '/git/stash' },
+            { text: 'Branches', link: '/git/branches' },
+            { text: 'Commits', link: '/git/commits' },
+          ],
         },
       ],
       '/linux/': [

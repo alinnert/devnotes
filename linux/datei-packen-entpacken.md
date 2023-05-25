@@ -2,7 +2,7 @@
 
 ## tar
 
-### Datei mit packen
+### Datei packen
 
 ~~~
 tar -czvf archive.tar.gz directory
