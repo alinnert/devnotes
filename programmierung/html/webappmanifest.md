@@ -1,9 +1,23 @@
+# Web application manifest
+
+## Manifest einbinden
+
+~~~ html
+<link rel="manifest" href="/webapp.webmanifest">
+~~~
+
+## Manifest-JSON
+
+~~~ json
 {
   "name": "DevNotes",
+  "short_name": "DevNotes",
   "start_url": ".",
   "display": "standalone",
   "description": "Persönliche Notizen von Andreas Linnert",
   "lang": "de-DE",
+  // Zum Ausblenden der Titel-Leiste
+  "display_override": ["window-controls-overlay"],
   "icons": [
     {
       "src": "favicon.png",
@@ -27,3 +41,4 @@
     }
   ]
 }
+~~~

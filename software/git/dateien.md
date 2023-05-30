@@ -5,13 +5,13 @@
 ### Datei aus Commit wiederherstellen
 
 ~~~ sh
-git checkout <commit-id> -- .\path\to\file
+git checkout <commit-id> -- ./path/to/file
 ~~~
 
 ### Datei aus lokalem Repo (HEAD) wiederherstellen
 
 ~~~ sh
-git checkout -- .\path\to\file
+git checkout -- ./path/to/file
 ~~~
 
 ### Lokale Änderungen rückgängig machen
@@ -45,7 +45,7 @@ Kann aber nicht für Stashes verwendet werden. Hierzu Dateien stattdessen in den
 Z. B. nachdem man eine Datei im Repository nachträglich auf `.gitignore` gesetzt hat.
 
 ~~~ sh
-git rm --cached .\path\to\file
+git rm --cached ./path/to/file
 ~~~
 
 ## Stage
@@ -53,7 +53,7 @@ git rm --cached .\path\to\file
 ### Datei aus Stage entfernen
 
 ~~~ sh
-git reset .\path\to\file
+git reset ./path/to/file
 ~~~
 
 ### Dateien im Index stagen
@@ -69,9 +69,9 @@ git add --update .
 ### Nur Teile einer Datei stagen
 
 ~~~ sh
-git add -p .\path\to\file
+git add -p ./path/to/file
 ~~~
 
 ~~~ sh
-git add --patch .\path\to\file
+git add --patch ./path/to/file
 ~~~
