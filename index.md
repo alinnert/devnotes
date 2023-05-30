@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "DevNotes"
+  name: "Persönliche Notizen"
   # text: "My personal notes"
-  tagline: Persönliche Notizen
+  tagline: "Zusammengestellt von Andreas Linnert"
   actions:
     - theme: alt
       text: GitHub-Profil
@@ -13,4 +13,12 @@ hero:
     - theme: alt
       text: Website
       link: https://linnertmedia.de
+
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
