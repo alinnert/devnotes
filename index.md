@@ -3,23 +3,14 @@
 layout: home
 
 hero:
-  name: "Notizen"
+  name: "DevNotes"
   # text: "My personal notes"
-  # tagline: My great project tagline
-  # actions:
-  #   - theme: brand
-  #     text: Markdown Examples
-  #     link: /markdown-examples
-  #   - theme: alt
-  #     text: API Examples
-  #     link: /api-examples
-
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  tagline: Persönliche Notizen
+  actions:
+    - theme: alt
+      text: GitHub-Profil
+      link: https://github.com/alinnert
+    - theme: alt
+      text: Website
+      link: https://linnertmedia.de
 ---
-
