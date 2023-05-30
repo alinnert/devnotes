@@ -2,37 +2,36 @@
 
 ## Linux-Version anzeigen
 
-z. B. `3.13.0-24-generic`
+Z. B.: `3.13.0-24-generic`
 
-~~~
+~~~ sh
 uname -r
 ~~~
 
-~~~
+~~~ sh
 uname --kernel-release
 ~~~
 
 ## Ubuntu-Version anzeigen
 
-z. B. `Ubuntu 14.04 LTS`
+Z. B.: `Ubuntu 14.04 LTS`
 
-~~~
+~~~ sh
 cat /etc/issue
 ~~~
 
-~~~
+~~~ sh
 lsb_release -a
 ~~~
 
 ## CPU-Infos anzeigen
 
-~~~
+~~~ sh
 cat /proc/cpuinfo
 ~~~
 
 ## Suche in CPU-Info nach PAE-Unterstützung
 
-~~~
+~~~ sh
 grep pae /proc/cpuinfo
 ~~~
-

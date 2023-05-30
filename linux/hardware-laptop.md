@@ -4,7 +4,7 @@
 
 Datei: `/etc/systemd/logind.conf`
 
-~~~
+~~~ sh
 HandleLidSwitch=ignore
 ~~~
 

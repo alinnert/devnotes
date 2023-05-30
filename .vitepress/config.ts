@@ -1,10 +1,13 @@
 import { defineConfig } from 'vitepress'
 
+const base = '/devnotes/'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'DevNotes',
   description: 'My personal notes',
-  base: '/devnotes/',
+  base,
+  head: [['link', { rel: 'manifest', href: `${base}devnotes.webmanifest` }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     outline: { label: 'Inhalt', level: [2, 3] },
@@ -42,6 +45,7 @@ export default defineConfig({
               link: '/linux/datei-packen-entpacken',
             },
             { text: 'SSH', link: '/linux/ssh' },
+            { text: 'ImageMagick', link: '/linux/imagemagick' },
             { text: 'Dienste', link: '/linux/system-dienste' },
             { text: 'System-Infos', link: '/linux/system-infos' },
             { text: 'Laptop', link: '/linux/hardware-laptop' },

@@ -6,13 +6,13 @@ Wenn vor einem `git commit` ein `git add` vergessen wurde.
 
 > Vermeiden, Changes zu einem Commit hinzuzufügen, der bereits gepusht wurde!
 
-~~~
+~~~ sh
 git commit --amend --no-edit
 ~~~
 
 ## Letzten Commit rückgängig machen
 
-~~~
+~~~ sh
 git reset --soft HEAD~<n>
 ~~~
 
@@ -20,7 +20,7 @@ git reset --soft HEAD~<n>
 
 ## Einzelnen Commit in aktuellen Branch mergen
 
-~~~
+~~~ sh
 git cherry-pick <commit-id>
 ~~~
 

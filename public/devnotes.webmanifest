@@ -1,0 +1,30 @@
+{
+  "name": "DevNotes",
+  "description": "Persönliche Notizen von Andreas Linnert",
+  "lang": "de-DE",
+  "display_override": ["window-controls-overlay"],
+  "display": "standalone",
+  "start_URL": "https://alinnert.github.io/devnotes",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-100.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
