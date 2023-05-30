@@ -41,7 +41,7 @@ export default defineConfig({
               text: 'Dateien packen/entpacken',
               link: '/linux/datei-packen-entpacken',
             },
-            { text: 'Dateien übertragen', link: '/linux/ssh' },
+            { text: 'SSH', link: '/linux/ssh' },
             { text: 'Dienste', link: '/linux/system-dienste' },
             { text: 'System-Infos', link: '/linux/system-infos' },
             { text: 'Laptop', link: '/linux/hardware-laptop' },
