@@ -67,6 +67,7 @@ export default defineConfig({
       '/software/': [
         { text: 'SSH', link: '/software/ssh' },
         { text: 'ImageMagick', link: '/software/imagemagick' },
+        { text: 'PowerShell', link: '/software/powershell' },
         {
           text: 'Git',
           items: [
