@@ -57,7 +57,7 @@ export default defineConfig({
               link: '/programmierung/html/head',
             },
             {
-              text: 'Web app manifest',
+              text: 'Webapp Manifest',
               link: '/programmierung/html/webappmanifest',
             },
           ],

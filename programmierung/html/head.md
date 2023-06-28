@@ -10,8 +10,10 @@
 <!-- 180x180 -->
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <!-- Rest aus dem Manifest laden: 512x512, 192x192 -->
-<link rel="manifest" href="application.webmanifest">
+<link rel="manifest" href="/webapp.webmanifest">
 ~~~
+
+Siehe [Webapp Manifest](/programmierung/html/webappmanifest)
 
 ## Fonts
 
